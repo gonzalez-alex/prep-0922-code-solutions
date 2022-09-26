@@ -5,10 +5,10 @@ const person = {
 };
 console.log(person);
 
-const fullName = "The person's name is " + person.firstName + ' ' + person.lastName;
+const fullName = "The person's name is: " + person.firstName + ' ' + person.lastName;
 console.log(fullName);
 person.job = 'Accountant';
-console.log("The person's current job is", person.job);
+console.log("The person's current job is:", person.job);
 person.previousJob = 'Bartender';
-console.log("The person's previous job is", person.previousJob);
-console.log(person);
+console.log("The person's previous job is:", person.previousJob);
+console.log('The complete person object:', person);
